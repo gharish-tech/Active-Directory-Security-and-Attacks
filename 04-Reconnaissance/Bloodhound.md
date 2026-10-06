@@ -1082,5 +1082,3 @@ SMB Enumeration
        ↓
 DNS Enumeration
 ```
-
-These will be documented separately and should not be mixed into this BloodHound reconnaissance document.
