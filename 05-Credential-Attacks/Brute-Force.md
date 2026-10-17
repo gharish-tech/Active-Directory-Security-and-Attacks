@@ -116,3 +116,4 @@ Suggested screenshot directory:
 ## 10. Learning Outcome
 
 I learned how SMB authentication can be tested with known credentials, how Windows records successful logons, and why authentication events must be correlated before drawing conclusions about a security test.
+
