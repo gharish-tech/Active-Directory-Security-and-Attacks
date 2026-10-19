@@ -328,17 +328,17 @@ The following tools and software are relevant to building the lab, studying Acti
 - Some security tools may trigger antivirus detections or require compilation. Use them only in an authorized lab and obtain source code from the official repositories.
 - This list provides installation and reference links; it does not imply that every tool was used in every assessment.
 
+---
+## Project Status
+
+This repository is organized into nine modules covering project planning, Active Directory fundamentals, lab setup, reconnaissance, credential attacks, privilege escalation, detection and defense, tools, and command references.
+
+Documentation and evidence should be updated as each assessment is completed and validated. The repository serves as a practical learning record of the lab configuration, security concepts investigated, and results observed.
+
+---
 
 ## Author
 
 **G Harish**
 
 Focused on Active Directory security, Windows infrastructure, networking, security assessment, and defensive monitoring.
-
----
-
-## Project Status
-
-This repository is organized into nine modules covering project planning, Active Directory fundamentals, lab setup, reconnaissance, credential attacks, privilege escalation, detection and defense, tools, and command references.
-
-Documentation and evidence should be updated as each assessment is completed and validated. The repository serves as a practical learning record of the lab configuration, security concepts investigated, and results observed.
