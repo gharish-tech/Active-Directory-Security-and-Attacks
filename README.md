@@ -273,6 +273,61 @@ This project is intended for educational purposes and authorized security testin
 The repository documents both successful and unsuccessful assessments. A technique listed in the repository is not automatically a successfully executed attack. Claims of credential extraction, ticket forgery, privilege escalation, or unauthorized lateral movement must be supported by actual lab evidence.
 
 ---
+## Tools & Software Installation Links
+
+The following tools and software are relevant to building the lab, studying Active Directory, performing authorized security assessments, and investigating security events. Use official download pages and documentation whenever possible.
+
+### 1. Lab Infrastructure
+
+| Software | Purpose | Official link |
+|---|---|---|
+| VMware Workstation Pro | Run the lab virtual machines | [Download VMware Workstation](https://support.broadcom.com/) |
+| Windows Server 2022 | Domain Controller and AD DS | [Microsoft Evaluation Center](https://www.microsoft.com/en-in/evalcenter/evaluate-windows-server-2022) |
+| Windows 11 | Domain-joined client machine | [Download Windows 11](https://www.microsoft.com/software-download/windows11) |
+| Kali Linux | Security testing environment | [Kali Linux Downloads](https://www.kali.org/get-kali/) |
+
+### 2. Active Directory and Reconnaissance
+
+| Tool | Purpose | Official link |
+|---|---|---|
+| BloodHound Community Edition | Visualize and analyze Active Directory relationships | [BloodHound GitHub](https://github.com/SpecterOps/BloodHound) |
+| SharpHound | Collect Active Directory relationship data for BloodHound | [SharpHound GitHub](https://github.com/SpecterOps/SharpHound) |
+| Neo4j | Graph database used by certain BloodHound workflows | [Neo4j Downloads](https://neo4j.com/download/) |
+| Impacket | Network protocol tools, including Kerberos and SMB utilities | [Impacket GitHub](https://github.com/fortra/impacket) |
+| CrackMapExec | Legacy network security assessment framework | [CrackMapExec GitHub](https://github.com/byt3bl33d3r/CrackMapExec) |
+| NetExec | Maintained successor project in the same tool family | [NetExec GitHub](https://github.com/Pennyw0rth/NetExec) |
+
+### 3. Kerberos and Windows Security Research
+
+| Tool | Purpose | Official link |
+|---|---|---|
+| Rubeus | Kerberos security research and ticket analysis | [GhostPack/Rubeus](https://github.com/GhostPack/Rubeus) |
+| Mimikatz | Windows authentication and credential-security research | [Mimikatz GitHub](https://github.com/gentilkiwi/mimikatz) |
+| PowerShell | Windows administration and Active Directory investigation | [PowerShell Documentation](https://learn.microsoft.com/en-us/powershell/) |
+| Sysmon | Record selected endpoint activity for security monitoring | [Sysmon Documentation](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) |
+| Windows Event Viewer | Review Windows Security and system events | [Event Viewer Documentation](https://learn.microsoft.com/en-us/shows/inside/event-viewer) |
+
+### 4. Documentation and References
+
+| Resource | Purpose | Official link |
+|---|---|---|
+| Microsoft Active Directory Domain Services | AD DS concepts and administration | [Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/) |
+| Kerberos authentication | Understand Kerberos authentication in Windows | [Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/security/kerberos/kerberos-authentication-overview) |
+| LDAP | Understand directory access protocols | [RFC 4511](https://www.rfc-editor.org/rfc/rfc4511) |
+| Windows Security Auditing | Understand Windows audit events | [Microsoft Learn](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/basic-audit-logon-events) |
+| Sysinternals Suite | Additional Windows troubleshooting and investigation tools | [Microsoft Sysinternals](https://learn.microsoft.com/en-us/sysinternals/) |
+
+### Installation Notes
+
+- Download operating systems and software from official sources. Verify checksums or signatures when the publisher provides them.
+- Windows Server evaluation editions have licensing and expiration conditions. Review Microsoft's current terms before use.
+- VMware Workstation availability and download access may require a Broadcom account. Check the publisher's current licensing terms.
+- BloodHound deployment requirements vary by edition and version. Follow the official installation instructions for the edition used in the lab.
+- Neo4j is included because some BloodHound workflows use it; verify the database requirements for your chosen BloodHound edition.
+- CrackMapExec is a legacy project. For new work, review NetExec as its successor.
+- Some security tools may trigger antivirus detections or require compilation. Use them only in an authorized lab and obtain source code from the official repositories.
+- This list provides installation and reference links; it does not imply that every tool was used in every assessment.
+
 
 ## Author
 
